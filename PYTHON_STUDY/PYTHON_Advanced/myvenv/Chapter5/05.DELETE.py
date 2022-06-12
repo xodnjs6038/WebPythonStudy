@@ -8,17 +8,15 @@ conn = sqlite3.connect('/Users/susimdal/PYTHON_STUDY/PYTHON_Advanced/myvenv/Chap
 cur = conn.cursor()
 
 # SQL 명령 작성
-CREATE_SQL = """
-    CREATE TABLE IF NOT EXISTS Item(
-        id integer primary key autoincrement,
-        code text not null,
-        name integer not null,
-        price integer not null
-    )
+DELETE_SQL = """
+    DELETE FROM item where code='A0002';
 """
 
 # SQL 명령 실행
-cur.execute(CREATE_SQL)
+cur.execute(DELETE_SQL)
+
+# 커밋
+conn.commit()
 
 # 데이터베이스 닫기
 conn.close()
