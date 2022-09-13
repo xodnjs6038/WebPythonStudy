@@ -1,0 +1,13 @@
+.container .item {
+    color: yellowgreen;
+    border: 2px solid black;
+    line-height: 2;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.container .item:nth-child(2n) {
+    font-weight: bold;
+    text-decoration: underline;
+}

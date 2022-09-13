@@ -1,0 +1,12 @@
+/* https://heropy.blog/css/images/logo.png */
+
+.container .item {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    margin: 10px;
+    background-image: url("https://heropy.blog/css/images/logo.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

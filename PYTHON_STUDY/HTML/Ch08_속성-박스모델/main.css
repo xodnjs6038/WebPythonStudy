@@ -1,0 +1,18 @@
+.container {
+}
+.container .item {
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 4px dotted blue;
+    box-sizing: border-box;
+}
+.container .item:nth-child(2n) {
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, .3);
+}
+
+.container .item:nth-child(3n) {
+    opacity: 0.5;
+}

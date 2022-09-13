@@ -1,0 +1,15 @@
+.container {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.container .item {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    border: 2px solid burlywood;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
